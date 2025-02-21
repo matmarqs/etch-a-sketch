@@ -1,0 +1,122 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto, monospace;
+  margin: 0;
+  font-size: 24px;
+  min-height: 115vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 64px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.col {
+  border: 1px solid black;
+  width: 35px;
+  height: 35px;
+  text-align: center; /* to be removed */
+}
+
+
+/*
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 64px;
+}
+
+#panel {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 64px;
+  padding: 32px;
+  border: 4px solid white;
+  border-radius: 16px;
+  min-width: 677px;
+  min-height: 250px;
+  color: white;
+}
+
+.game {
+  margin-top: 64px;
+  padding: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  min-width: 888px;
+  border-radius: 16px;
+  border: 4px solid red;
+}
+
+.select {
+  padding: 16px;
+  border-radius: 16px;
+  border: 2px solid black;
+}
+
+.select:hover {
+  background-color: #60A5FA;
+}
+
+.select:active {
+  background-color: #1d4ed8;
+  transform: translateY(4px);
+}
+
+#computer {
+  transform: rotate(-1deg);
+}
+
+#computer.anim {
+  transform: rotate(1deg);
+}
+
+.card {
+  width: 200px;
+  height: auto;
+  border-radius: 8px;
+  border: 1px solid black;
+}
+
+.vs {
+  width: 200px;
+  height: auto;
+}
+
+.player-text {
+  margin-bottom: 32px;
+  font-weight: 900;
+  font-size: 32px;
+  color: white;
+}
+
+.fight {
+  margin: 64px 0 64px 0;
+}
+
+.results-title {
+  font-weight: 900;
+  font-size: 32px;
+}
+
+#winner {
+  font-weight: 900;
+  font-size: 36px;
+}
+*/
